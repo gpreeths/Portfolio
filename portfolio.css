@@ -1,0 +1,64 @@
+*{
+    color: #FFFFFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    background-color: #332D2D;
+    width: auto;
+    height: 60px;
+    color: #FFFFFF;
+}
+.name{
+    padding-left: 13px;
+    padding-top: 25px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;  /* Align items horizontally */
+    width: 550px;         /* Set a fixed width for the container */
+    height: 20px;         /* Optional: Set a fixed height */
+    gap: 30px;            /* Adds space between menu items */
+}
+
+.menu-item {
+    padding: 8px 16px;    /* Padding for each menu item */
+    text-align: center;
+}
+.aboutme{
+    background-color: #332D2D;
+    width: auto;
+    height: 200px;
+    margin-top: -250px;
+}
+.abt{
+    width: 550px;
+    margin-left: 750px;
+    text-align: center;
+    padding-top: 50px;
+}
+.me{
+    
+    padding-left: 250px;
+    margin-top: -100px;
+}
+
+img{
+    margin-left: 150px;
+    margin-top: -100px;
+    width: 25%;
+}
+h1{
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+      
+
+.download{
+    border-radius: 10px;
+    border: 2px solid #E2D4D4;
+    background-color: #E2D4D4;
+    color: black;
+    width: 140px;
+    margin-left: 950px;
+    margin-top: 20px;
+    text-align: center;
+}

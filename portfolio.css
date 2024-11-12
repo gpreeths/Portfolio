@@ -42,12 +42,50 @@
     margin-top: -100px;
 }
 
+.pree{
+    margin-left: 600px;
+    margin-top: 10px;
+    color: #ffffffcd;
+}
+
+.designer{
+    margin-left: 600px;
+    margin-top: -10px;
+    color: #ffffff6b;
+}
+
+.hi{
+    margin-left: 600px;
+    margin-top: 100px;
+    color: #ffffffcd;
+}
+
+.icon {
+    margin-left: -200px;
+    display: flex;
+    flex-direction: row;    /* Align icons horizontally */
+    justify-content: center; /* Center the icons within the container */
+    gap: 15px;              /* Optional: Adds space between the icons */
+    padding: 10px;          /* Optional: Adds padding around the icons */
+}
+
+.icon i {
+    font-size: 32px;         /* Adjust icon size */
+    color: #333;             /* Set a default color for the icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.icon i:hover,.download :hover{
+    color: #57a6df;          /* Change color on hover (Instagram's blue) */
+}
+
+
 img{
     margin-left: 150px;
-    margin-top: -100px;
+    margin-top: -400px;
     width: 25%;
 }
-h1{
+.me{
     text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
 }
       
@@ -61,4 +99,12 @@ h1{
     margin-left: 950px;
     margin-top: 20px;
     text-align: center;
+}
+.download :hover{
+    color: #57a6df;          /* Change color on hover (Instagram's blue) */
+}
+
+a:link{
+    color: #1e1919;
+    text-decoration: none;
 }
